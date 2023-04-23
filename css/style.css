@@ -565,7 +565,7 @@ h6,
 }
 .Responsable {
   width: fit-content;
-  border-bottom: solid 0.3rem red;
+  border-bottom: solid 0.3rem black;
   margin-bottom: 2rem;
 }
 .contactinfo a {
