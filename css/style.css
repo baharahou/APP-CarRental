@@ -554,3 +554,21 @@ h6,
 .socialbtn {
   margin-left: 2rem;
 }
+.contactblock {
+  border: solid 0.8rem;
+  border-color: linear-gradient(to bottom right, grey, black);
+  padding: 2rem;
+}
+.contactinfo {
+  display: flex;
+  flex-direction: column;
+}
+.Responsable {
+  width: fit-content;
+  border-bottom: solid 0.3rem red;
+  margin-bottom: 2rem;
+}
+.contactinfo a {
+  text-decoration: none;
+  color: #262b47;
+}
