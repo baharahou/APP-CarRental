@@ -1,91 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title>the online Zone rental car</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+  <head>
+    <meta charset="utf-8" />
+    <title>The Online Zone rental Car</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      name="description"
+      content="The Online Zone est une entreprise de location de voitures qui vous offre des services de qualité et une expérience de location inoubliable. Découvrez une large gamme de véhicules pour répondre à vos besoins et profitez des tarifs les plus avantageux"
+    />
 
     <!-- Favicon -->
 
-
-    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon/favicon-32x32.png"
+    />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
     <div class="container-xxl bg-white p-0">
-        <!-- Spinner Start -->
-        <div id="spinner"
-            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
+      <!-- Spinner Start -->
+      <div
+        id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+      >
+        <div
+          class="spinner-grow text-primary"
+          style="width: 3rem; height: 3rem"
+          role="status"
+        >
+          <span class="sr-only">Loading...</span>
         </div>
-        <!-- Spinner End -->
+      </div>
+      <!-- Spinner End -->
 
+      <!-- Navbar & Hero Start -->
+      <div class="container-xxl position-relative p-0" id="home">
+        <nav
+          class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
+        >
+          <a href="" class="navbar-brand p-0">
+            <h1 class="nameSte m-0">THE ONLINE-ZONE</h1>
+            <!-- <img src="img/logo.png" alt="Logo"> -->
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span class="fa fa-bars"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav mx-auto py-0">
+              <a href="#home" class="nav-item nav-link active">Home</a>
+              <a href="#about" class="nav-item nav-link">About</a>
+              <a href="#feature" class="nav-item nav-link">Parc & Tarifs</a>
+              <!-- <a href="#pricing" class="nav-item nav-link">Pricing</a> -->
+              <a href="#review" class="nav-item nav-link">Review</a>
+              <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">Langue</button>
+              <div class="dropdown-content">
+                <a href="">Français</a>
+                <a href="">English</a>
+              </div>
+            </div>
+          </div>
+        </nav>
 
-        <!-- Navbar & Hero Start -->
-        <div class="container-xxl position-relative p-0" id="home">
-            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-                <a href="" class="navbar-brand p-0">
-                    <h1 class="m-0">THE ONLINEZONE</h1>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
-                </a>
-               <!--  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
-                </button> -->
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav mx-auto py-0">
-                        <a href="#home" class="nav-item nav-link active">Home</a>
-                        <a href="#about" class="nav-item nav-link">About</a>
-                        <a href="#feature" class="nav-item nav-link">Parc & Tarifs</a>
-                        <!-- <a href="#pricing" class="nav-item nav-link">Pricing</a> -->
-                        <a href="#review" class="nav-item nav-link">Review</a>
-                        <a href="#contact" class="nav-item nav-link">Contact</a>
-
-                    </div>
-                </div>
-            </nav>
-
-            <div class="container-xxl bg-primary hero-header">
-                <div class="container px-lg-5 ">
-                    <div class="row g-5">
-                        <div class="col-lg-8 text-center text-lg-start">
-                            <h1 class="text-white mb-4 animated slideInDown">Parcourez les routes en toute liberté avec
-                                notre service de location de voitures de premier choix !</h1>
-                            <p class="text-white pb-3 animated slideInDown">Voyagez avec style et simplicité - Louez dès
-                                maintenant votre voiture de rêve et explorez votre destination en toute liberté avec
-                                [Nom de votre entreprise de location de voiture] </p>
-                            <a href="#about"
-                                class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Read
-                                More...</a>
-                            <a href="#contact"
-                                class="btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight">Contact
-                                Us</a>
-                        </div>
-                        <!--  <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.5s">
+        <div class="container-xxl bg-primary hero-header">
+          <div class="container px-lg-5">
+            <div class="row g-5">
+              <div class="col-lg-8 text-center text-lg-start">
+                <h1 class="textBanner1 text-white mb-4 animated slideInDown">
+                  Parcourez les routes en toute liberté avec notre service de
+                  location de voitures de premier choix !
+                </h1>
+                <p class="textBanner2 text-white pb-3 animated slideInDown">
+                  Voyagez avec style et simplicité - Louez dès maintenant votre
+                  voiture de rêve et explorez votre destination en toute liberté
+                  avec [Nom de votre entreprise de location de voiture]
+                </p>
+                <a
+                  href="#about"
+                  class="btn-readmore btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft"
+                  >Read More...</a
+                >
+                <a
+                  href="#contact"
+                  class="btn-contactus btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight"
+                  >Contact Us</a
+                >
+              </div>
+              <!--  <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.5s">
                             <div class="owl-carousel screenshot-carousel">
                                 <img class="img-fluid" src="img/screenshot-1.png" alt="image car">
                                 <img class="img-fluid" src="img/screenshot-2.png" alt="image car">
@@ -94,165 +133,224 @@
                                 <img class="img-fluid" src="img/screenshot-5.png" alt="image car">
                             </div>
                         </div> -->
-                        <div class="banner"> <img src="./img/about-hero-img.png.webp" alt="image banner"> </div>
-                    </div>
-                </div>
+              <div class="banner">
+                <img src="./img/about-hero-img.png.webp" alt="image banner" />
+              </div>
             </div>
+          </div>
         </div>
-        <!-- Navbar & Hero End -->
+      </div>
+      <!-- Navbar & Hero End -->
 
-
-        <!-- About Start -->
-        <div class="container-xxl py-5" id="about">
-            <div class="container py-5 px-lg-5">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <h5 class="text-primary-gradient fw-medium">Qui Sommes Nous ?</h5>
-                        <h1 class="mb-4">Nom de l'agence MyCar</h1>
-                        <p class="mb-4">Dorénavant,vous n'aurez pas de soucis de voiture nous garantissons le confort,le
-                            service et le bon prix. "Nom de l'agence MyCar" agence de location de voitures à "ville"
-                            créée depuis "année" présente des taris imbattables à sa clientéle. Notre parc est constitué
-                            de voitures toutes neuves qui sont toujours bien entrenues dans le but de passer des
-                            vacances bien remplies de joie et pleins de souvenirs intarissables.
-                            Avec Car Rental LTD,vous pouvez récupérer la voiture que vous avez choisie au moment que
-                            vous aurez déja fixé.
-                            Notre équipe est toujours à votre disposition à tout moment (7j/7 et 24h/24).
-                            Nous nous occupons de la livraison de votre voiture là où vous le souhaitez à l'aéroport, à
-                            la gare ou à votre hôtel sans que cela engage des dépenses supplémentaires.</p>
-                        <div class="row g-4 mb-4">
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                                <div class="d-flex">
-                                    <i class="fa fa-car fa-2x text-primary-gradient flex-shrink-0 mt-1"></i>
-                                    <div class="ms-3">
-                                        <h2 class="mb-0" data-toggle="counter-up">34</h2>
-                                        <p class="text-primary-gradient mb-0">Nombre de voiture</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
-                                <div class="d-flex">
-                                    <i class="fa fa-comments fa-2x text-secondary-gradient flex-shrink-0 mt-1"></i>
-                                    <div class="ms-3">
-                                        <h2 class="mb-0" data-toggle="counter-up">580</h2>
-                                        <p class="text-secondary-gradient mb-0">Clients Reviews</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--   <a href="" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Read More</a> -->
+      <!-- About Start -->
+      <div class="container-xxl py-5" id="about">
+        <div class="container py-5 px-lg-5">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <h5 class="text-primary-gradient fw-medium">Qui Sommes Nous ?</h5>
+              <h1 class="mb-4">Nom de l'agence MyCar</h1>
+              <p class="mb-4">
+                Dorénavant,vous n'aurez pas de soucis de voiture nous
+                garantissons le confort,le service et le bon prix. "Nom de
+                l'agence MyCar" agence de location de voitures à "ville" créée
+                depuis "année" présente des taris imbattables à sa clientéle.
+                Notre parc est constitué de voitures toutes neuves qui sont
+                toujours bien entrenues dans le but de passer des vacances bien
+                remplies de joie et pleins de souvenirs intarissables. Avec Car
+                Rental LTD,vous pouvez récupérer la voiture que vous avez
+                choisie au moment que vous aurez déja fixé. Notre équipe est
+                toujours à votre disposition à tout moment (7j/7 et 24h/24).
+                Nous nous occupons de la livraison de votre voiture là où vous
+                le souhaitez à l'aéroport, à la gare ou à votre hôtel sans que
+                cela engage des dépenses supplémentaires.
+              </p>
+              <div class="row g-4 mb-4">
+                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                  <div class="d-flex">
+                    <i
+                      class="fa fa-car fa-2x text-primary-gradient flex-shrink-0 mt-1"
+                    ></i>
+                    <div class="ms-3">
+                      <h2 class="mb-0" data-toggle="counter-up">34</h2>
+                      <p class="text-primary-gradient mb-0">
+                        Nombre de voiture
+                      </p>
                     </div>
-                    <div class="col-lg-6">
-                        <img class="img-fluid wow fadeInUp" data-wow-delay="0.3s" src="img/5-mobile-en.jpg">
-                    </div>
+                  </div>
                 </div>
+                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                  <div class="d-flex">
+                    <i
+                      class="fa fa-comments fa-2x text-secondary-gradient flex-shrink-0 mt-1"
+                    ></i>
+                    <div class="ms-3">
+                      <h2 class="mb-0" data-toggle="counter-up">580</h2>
+                      <p class="text-secondary-gradient mb-0">
+                        Clients Reviews
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--   <a href="" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Read More</a> -->
             </div>
-        </div>
-        <!-- About End -->
-
-
-        <!-- Features Start -->
-        <div class="container-xxl py-5" id="feature">
-            <div class="container py-5 px-lg-5">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="text-primary-gradient fw-medium">MyCar</h5>
-                    <h1 class="mb-5">Parc & Tarifs</h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp " data-wow-delay="0.1s">
-                        <div class="feature-item bg-light rounded p-4">
-                            <img src="./config/Mycar/asset/img/imgCar/car1.jpeg" alt="fait 500" class=" w-100 h-100">
-                            <h4 class="mb-3 p-3 text-center">Fiat 500</h4>
-                            <div class="d-flex flex-column">
-                                <div><i class="fa fa-gas-pump fs-6"> Carburant: </i> Essence</div>
-
-                                <div><i class="fa fa-cogs fs-6"> Boîte de vitesses: </i>Manuelle</div>
-                                <div><i class="fa fa-users fs-6"> Max passagers: </i> 4</div>
-                                <div><i class="fa fa-snowflake fs-6"> clim: </i> oui</div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp " data-wow-delay="0.1s">
-                        <div class="feature-item bg-light rounded p-4">
-                            <img src="./config/Mycar/asset/img/imgCar/loganne.jpeg" alt="Dacia logan" class=" w-100 h-100">
-                            <h5 class="mb-3 p-3 text-center">Dacia logan</h5>
-                            <div class="d-flex flex-column">
-                                <div><i class="fa fa-gas-pump fs-6"> Carburant: </i> Essence</div>
-
-                                <div><i class="fa fa-cogs fs-6"> Boîte de vitesses: </i>Manuelle</div>
-                                <div><i class="fa fa-users fs-6"> Max passagers: </i> 4</div>
-                                <div><i class="fa fa-snowflake fs-6"> clim: </i> oui</div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp " data-wow-delay="0.1s">
-                        <div class="feature-item bg-light rounded p-4">
-                            <img src="./config/Mycar/asset/img/imgCar/duster.jpeg" alt="dacia duster" class=" w-100 h-100">
-                            <h5 class="mb-3 p-3 text-center">Dacia Duster</h5>
-                            <div class="d-flex flex-column">
-                                <div><i class="fa fa-gas-pump fs-6"> Carburant: </i> Essence</div>
-
-                                <div><i class="fa fa-cogs fs-6"> Boîte de vitesses: </i>Manuelle</div>
-                                <div><i class="fa fa-users fs-6"> Max passagers: </i> 4</div>
-                                <div><i class="fa fa-snowflake fs-6"> clim: </i> oui</div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp " data-wow-delay="0.1s">
-                        <div class="feature-item bg-light rounded p-4">
-                            <img src="./config/Mycar/asset/img/imgCar/accent.jpeg" alt="hyindai accent" class=" w-100 h-100">
-                            <h5 class="mb-3 p-3 text-center">Hyundia Accent</h5>
-                            <div class="d-flex flex-column">
-                                <div><i class="fa fa-gas-pump fs-6"> Carburant: </i> Essence</div>
-
-                                <div><i class="fa fa-cogs fs-6"> Boîte de vitesses: </i>Manuelle</div>
-                                <div><i class="fa fa-users fs-6"> Max passagers: </i> 4</div>
-                                <div><i class="fa fa-snowflake fs-6"> clim: </i> oui</div>
-
-                            </div>
-                        </div>
-                    </div> <div class="col-lg-4 col-md-6 wow fadeInUp " data-wow-delay="0.1s">
-                        <div class="feature-item bg-light rounded p-4">
-                            <img src="./config/Mycar/asset/img/imgCar/c3.png" alt="citrion c3" class=" w-100 h-100">
-                            <h5 class="mb-3 p-3 text-center">Citrion C3</h5>
-                            <div class="d-flex flex-column">
-                                <div><i class="fa fa-gas-pump fs-6"> Carburant: </i> Essence</div>
-
-                                <div><i class="fa fa-cogs fs-6"> Boîte de vitesses: </i>Manuelle</div>
-                                <div><i class="fa fa-users fs-6"> Max passagers: </i> 4</div>
-                                <div><i class="fa fa-snowflake fs-6"> clim: </i> oui</div>
-
-                            </div>
-                        </div>
-                    </div> <div class="col-lg-4 col-md-6 wow fadeInUp " data-wow-delay="0.1s">
-                        <div class="feature-item bg-light rounded p-4">
-                            <img src="./config/Mycar/asset/img/imgCar/i10.jpeg" alt="hyundai i10" class=" w-100 h-100">
-                            <h5 class="mb-3 p-3 text-center">Hyundia grand I10</h5>
-                            <div class="d-flex flex-column">
-                                <div><i class="fa fa-gas-pump fs-6"> Carburant: </i> Essence</div>
-
-                                <div><i class="fa fa-cogs fs-6"> Boîte de vitesses: </i>Manuelle</div>
-                                <div><i class="fa fa-users fs-6"> Max passagers: </i> 4</div>
-                                <div><i class="fa fa-snowflake fs-6"> clim: </i> oui</div>
-
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-
-                </div>
+            <div class="col-lg-6">
+              <img
+                class="img-fluid wow fadeInUp"
+                data-wow-delay="0.3s"
+                src="img/5-mobile-en.jpg"
+                alt="image mobile"
+              />
             </div>
+          </div>
         </div>
-        <!-- Features End -->
+      </div>
+      <!-- About End -->
 
+      <!-- Features Start -->
+      <div class="container-xxl py-5" id="feature">
+        <div class="container py-5 px-lg-5">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="text-primary-gradient fw-medium">MyCar</h5>
+            <h1 class="mb-5">Parc & Tarifs</h1>
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="feature-item bg-light rounded p-4">
+                <img
+                  src="./config/Mycar/asset/img/imgCar/car1.jpeg"
+                  alt="fait 500"
+                  class="w-100 h-100"
+                />
+                <h4 class="mb-3 p-3 text-center">Fiat 500</h4>
+                <div class="d-flex flex-column">
+                  <div>
+                    <i class="fa fa-gas-pump fs-6"> Carburant: </i> Essence
+                  </div>
 
-        <!-- Screenshot Start -->
-        <!--  <div class="container-xxl py-5">
+                  <div>
+                    <i class="fa fa-cogs fs-6"> Boîte de vitesses: </i
+                    >Automatique
+                  </div>
+                  <div><i class="fa fa-users fs-6"> Max passagers: </i> 4</div>
+                  <div><i class="fa fa-snowflake fs-6"> clim: </i> oui</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="feature-item bg-light rounded p-4">
+                <img
+                  src="./config/Mycar/asset/img/imgCar/loganne.jpeg"
+                  alt="Dacia logan"
+                  class="w-100 h-100"
+                />
+                <h5 class="mb-3 p-3 text-center">Dacia logan</h5>
+                <div class="d-flex flex-column">
+                  <div>
+                    <i class="fa fa-gas-pump fs-6"> Carburant: </i> Essence
+                  </div>
+
+                  <div>
+                    <i class="fa fa-cogs fs-6"> Boîte de vitesses: </i>Manuelle
+                  </div>
+                  <div><i class="fa fa-users fs-6"> Max passagers: </i> 4</div>
+                  <div><i class="fa fa-snowflake fs-6"> clim: </i> oui</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="feature-item bg-light rounded p-4">
+                <img
+                  src="./config/Mycar/asset/img/imgCar/duster.jpeg"
+                  alt="dacia duster"
+                  class="w-100 h-100"
+                />
+                <h5 class="mb-3 p-3 text-center">Dacia Duster</h5>
+                <div class="d-flex flex-column">
+                  <div>
+                    <i class="fa fa-gas-pump fs-6"> Carburant: </i> Gasoil
+                  </div>
+
+                  <div>
+                    <i class="fa fa-cogs fs-6"> Boîte de vitesses: </i
+                    >Automatique
+                  </div>
+                  <div><i class="fa fa-users fs-6"> Max passagers: </i> 4</div>
+                  <div><i class="fa fa-snowflake fs-6"> clim: </i> oui</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="feature-item bg-light rounded p-4">
+                <img
+                  src="./config/Mycar/asset/img/imgCar/accent.jpeg"
+                  alt="hyindai accent"
+                  class="w-100 h-100"
+                />
+                <h5 class="mb-3 p-3 text-center">Hyundia Accent</h5>
+                <div class="d-flex flex-column">
+                  <div>
+                    <i class="fa fa-gas-pump fs-6"> Carburant: </i> Essence
+                  </div>
+
+                  <div>
+                    <i class="fa fa-cogs fs-6"> Boîte de vitesses: </i
+                    >Automatique
+                  </div>
+                  <div><i class="fa fa-users fs-6"> Max passagers: </i> 4</div>
+                  <div><i class="fa fa-snowflake fs-6"> clim: </i> oui</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="feature-item bg-light rounded p-4">
+                <img
+                  src="./config/Mycar/asset/img/imgCar/c3.png"
+                  alt="citrion c3"
+                  class="w-100 h-100"
+                />
+                <h5 class="mb-3 p-3 text-center">Citrion C3</h5>
+                <div class="d-flex flex-column">
+                  <div>
+                    <i class="fa fa-gas-pump fs-6"> Carburant: </i> Gasoil
+                  </div>
+
+                  <div>
+                    <i class="fa fa-cogs fs-6"> Boîte de vitesses: </i>Manuelle
+                  </div>
+                  <div><i class="fa fa-users fs-6"> Max passagers: </i> 4</div>
+                  <div><i class="fa fa-snowflake fs-6"> clim: </i> oui</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="feature-item bg-light rounded p-4">
+                <img
+                  src="./config/Mycar/asset/img/imgCar/i10.jpeg"
+                  alt="hyundai i10"
+                  class="w-100 h-100"
+                />
+                <h5 class="mb-3 p-3 text-center">Hyundia grand I10</h5>
+                <div class="d-flex flex-column">
+                  <div>
+                    <i class="fa fa-gas-pump fs-6"> Carburant: </i> Essence
+                  </div>
+
+                  <div>
+                    <i class="fa fa-cogs fs-6"> Boîte de vitesses: </i>Manuelle
+                  </div>
+                  <div><i class="fa fa-users fs-6"> Max passagers: </i> 4</div>
+                  <div><i class="fa fa-snowflake fs-6"> clim: </i> oui</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Features End -->
+
+      <!-- Screenshot Start -->
+      <!--  <div class="container-xxl py-5">
             <div class="container py-5 px-lg-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
@@ -276,95 +374,134 @@
                 </div>
             </div>
         </div> -->
-        <!-- Screenshot End -->
+      <!-- Screenshot End -->
 
-
-        <!-- Process Start -->
-        <div class="container-xxl py-5">
-            <div class="container py-5 px-lg-5">
-                <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="text-primary-gradient fw-medium">pour réserver votre voiture</h5>
-                    <h1 class="mb-5">3 Easy Steps</h1>
+      <!-- Process Start -->
+      <div class="container-xxl py-5">
+        <div class="container py-5 px-lg-5">
+          <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="text-primary-gradient fw-medium">
+              pour réserver votre voiture
+            </h5>
+            <h1 class="mb-5">3 Easy Steps</h1>
+          </div>
+          <div class="row gy-5 gx-4 justify-content-center">
+            <div
+              class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp"
+              data-wow-delay="0.1s"
+            >
+              <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
+                <div
+                  class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+                  style="width: 100px; height: 100px"
+                >
+                  <i class="fa fa-cog fa-3x text-white"></i>
                 </div>
-                <div class="row gy-5 gx-4 justify-content-center">
-                    <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow"
-                                style="width: 100px; height: 100px;">
-                                <i class="fa fa-cog fa-3x text-white"></i>
-                            </div>
-                            <h5 class="mt-4 mb-3">Contactez-nos</h5>
-                            <p class="mb-0">Sélectionnez le type de voiture qui correspond à vos besoins en termes de
-                                taille, de modèle, de caractéristiques et de budget. </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow"
-                                style="width: 100px; height: 100px;">
-                                <i class="fa fa-address-card fa-3x text-white"></i>
-                            </div>
-                            <h5 class="mt-4 mb-3">Signé le contrat</h5>
-                            <p class="mb-0">Fournissez les informations nécessaires : Préparez les informations
-                                nécessaires pour la réservation, Signez le contrat de location</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow"
-                                style="width: 100px; height: 100px;">
-                                <i class="fa fa-check fa-3x text-white"></i>
-                            </div>
-                            <h5 class="mt-4 mb-3">Récupérez la voiture </h5>
-                            <p class="mb-0">Rendez-vous à l'agence de location de voitures à la date et à l'heure
-                                convenues pour récupérer la voiture.</p>
-                        </div>
-                    </div>
-                </div>
+                <h5 class="mt-4 mb-3">Contactez-nos</h5>
+                <p class="mb-0">
+                  Sélectionnez le type de voiture qui correspond à vos besoins
+                  en termes de taille, de modèle, de caractéristiques et de
+                  budget.
+                </p>
+              </div>
             </div>
+            <div
+              class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp"
+              data-wow-delay="0.3s"
+            >
+              <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
+                <div
+                  class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+                  style="width: 100px; height: 100px"
+                >
+                  <i class="fa fa-address-card fa-3x text-white"></i>
+                </div>
+                <h5 class="mt-4 mb-3">Signé le contrat</h5>
+                <p class="mb-0">
+                  Fournissez les informations nécessaires : Préparez les
+                  informations nécessaires pour la réservation, Signez le
+                  contrat de location
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp"
+              data-wow-delay="0.3s"
+            >
+              <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
+                <div
+                  class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+                  style="width: 100px; height: 100px"
+                >
+                  <i class="fa fa-check fa-3x text-white"></i>
+                </div>
+                <h5 class="mt-4 mb-3">Récupérez la voiture</h5>
+                <p class="mb-0">
+                  Rendez-vous à l'agence de location de voitures à la date et à
+                  l'heure convenues pour récupérer la voiture.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- Process Start -->
+      </div>
+      <!-- Process Start -->
 
+      <!-- Download Start -->
+      <div class="container-xxl py-5">
+        <div class="container py-5 px-lg-5">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-6">
+              <img
+                class="img-fluid wow fadeInUp"
+                data-wow-delay="0.1s"
+                src="./img/group cars.png"
+                alt="group os cars"
+              />
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+              <h1 class="mb-4">Nos points forts:</h1>
 
-        <!-- Download Start -->
-        <div class="container-xxl py-5">
-            <div class="container py-5 px-lg-5">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-6">
-                        <img class="img-fluid wow fadeInUp" data-wow-delay="0.1s" src="img/group cars.png" alt="group os cars">
+              <ul>
+                <li>
+                  La proximité avec nos clients par un accueil de qualité et un
+                  relationnel durable.
+                </li>
+                <li>Réservation de voiture possible sur place.</li>
+                <li>Disponibilité en temps réel.</li>
+                <li>Paiement 100% sécurisé.</li>
+                <li>
+                  Large gamme de voitures avec prix pas chers : à partir de 200
+                  dhs/jour.
+                </li>
+                <li>Pas de frais d'annulation.</li>
+                <li>Accueillir le client 24h/24.</li>
+                <li>Conseiller et aider à remplir le contrat.</li>
+                <li>
+                  Remettre le véhicule au client avec les explications
+                  nécessaires au bon fonctionnement.
+                </li>
+                <li>Gérer le retour du véhicule.</li>
+
+                <li>Livraison à domicile sans frais supplémentaires.</li>
+                <!--  <li>Récupérer la voiture réservée de l'aéroport de Marrakech</li> -->
+              </ul>
+              <div class="row g-4">
+                <div class="col-sm-8 wow fadeIn" data-wow-delay="0.2s">
+                  <a
+                    href="https://wa.me/+212611223344"
+                    class="d-flex bg-primary-gradient rounded py-3 px-4"
+                  >
+                    <i
+                      class="fab fa-whatsapp fa-3x text-white flex-shrink-0"
+                    ></i>
+                    <div class="ms-3">
+                      <p class="text-white mb-0">réservez votre voiture</p>
+                      <h5 class="text-white mb-0">Whatsapp</h5>
                     </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-
-                        <h1 class="mb-4">Nos points forts:</h1>
-
-                        <ul>
-                            <li>La proximité avec nos clients par un accueil de qualité et un relationnel durable.</li>
-                            <li>Réservation de voiture possible sur place.</li>
-                            <li>Disponibilité en temps réel.</li>
-                            <li>Paiement 100% sécurisé.</li>
-                            <li>Large gamme de voitures avec prix pas chers : à partir de 200 dhs/jour.</li>
-                            <li>Pas de frais d'annulation.</li>
-                            <li>Accueillir le client 24h/24.</li>
-                            <li>Conseiller et aider à remplir le contrat.</li>
-                            <li>Remettre le véhicule au client avec les explications nécessaires au bon fonctionnement.
-                            </li>
-                            <li>Gérer le retour du véhicule.</li>
-
-                            <li>Livraison à domicile sans frais supplémentaires.</li>
-                            <!--  <li>Récupérer la voiture réservée de l'aéroport de Marrakech</li> -->
-                        </ul>
-                        <div class="row g-4">
-                            <div class="col-sm-8 wow fadeIn" data-wow-delay="0.2s">
-                                <a href="https://wa.me/+212611223344"
-                                    class="d-flex bg-primary-gradient rounded py-3 px-4">
-                                    <i class="fab fa-whatsapp fa-3x text-white flex-shrink-0"></i>
-                                    <div class="ms-3">
-                                        <p class="text-white mb-0">réservez votre voiture</p>
-                                        <h5 class="text-white mb-0"> Whatsapp </h5>
-                                    </div>
-                                </a>
-                            </div>
-                            <!--  <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                  </a>
+                </div>
+                <!--  <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
                                 <a href="" class="d-flex bg-secondary-gradient rounded py-3 px-4">
                                     <i class="fab fa-android fa-3x text-white flex-shrink-0"></i>
                                     <div class="ms-3">
@@ -373,262 +510,143 @@
                                     </div>
                                 </a>
                             </div> -->
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+          </div>
         </div>
-        <!-- Download End -->
+      </div>
+      <!-- Download End -->
 
-
-        <!-- Pricing Start -->
-        <!--  <div class="container-xxl py-5" id="pricing">
-            <div class="container py-5 px-lg-5">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="text-primary-gradient fw-medium">Pricing Plan</h5>
-                    <h1 class="mb-5">Choose Your Plan</h1>
+      <!-- Testimonial Start -->
+      <div class="container-xxl py-5" id="review">
+        <div class="container py-5 px-lg-5">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="text-primary-gradient fw-medium">Testimonial</h5>
+            <h1 class="mb-5">What Say Our Clients!</h1>
+          </div>
+          <div
+            class="owl-carousel testimonial-carousel wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <div class="testimonial-item rounded p-4">
+              <div class="d-flex align-items-center mb-4">
+                <img
+                  class="img-fluid bg-white rounded flex-shrink-0 p-1"
+                  src="img/testimonial-1.jpg"
+                  style="width: 85px; height: 85px"
+                  alt="review client1"
+                />
+                <div class="ms-4">
+                  <h5 class="mb-1">Client Name</h5>
+                  <p class="mb-1">Profession</p>
+                  <div>
+                    <small class="fa fa-star text-warning"></small>
+                    <small class="fa fa-star text-warning"></small>
+                    <small class="fa fa-star text-warning"></small>
+                    <small class="fa fa-star text-warning"></small>
+                    <small class="fa fa-star text-warning"></small>
+                  </div>
                 </div>
-                <div class="tab-class text-center pricing wow fadeInUp" data-wow-delay="0.1s">
-                    <ul class="nav nav-pills d-inline-flex justify-content-center bg-primary-gradient rounded-pill mb-5">
-                        <li class="nav-item">
-                            <button class="nav-link active" data-bs-toggle="pill" href="#tab-1">dayly</button>
-                        </li>
-                        <li class="nav-item">
-                            <button class="nav-link" data-bs-toggle="pill" href="#tab-2">Monthly</button>
-                        </li>
-                    </ul>
-                    <div class="tab-content text-start">
-                        <div id="tab-1" class="tab-pane fade show p-0 active">
-                            <div class="row g-4">
-                                <div class="col-lg-4">
-                                    <div class="bg-light rounded">
-                                        <div class="border-bottom p-4 mb-4">
-                                            <h4 class="text-primary-gradient mb-1">Starter Plan</h4>
-                                            <span>Powerful & Awesome Features</span>
-                                        </div>
-                                        <div class="p-4 pt-0">
-                                            <h1 class="mb-3">
-                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>14.99<small
-                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ day</small>
-                                            </h1>
-                                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="bg-light rounded border">
-                                        <div class="border-bottom p-4 mb-4">
-                                            <h4 class="text-primary-gradient mb-1">Advance Plan</h4>
-                                            <span>Powerful & Awesome Features</span>
-                                        </div>
-                                        <div class="p-4 pt-0">
-                                            <h1 class="mb-3">
-                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>24.99<small
-                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ day</small>
-                                            </h1>
-                                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <a href="" class="btn btn-secondary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="bg-light rounded">
-                                        <div class="border-bottom p-4 mb-4">
-                                            <h4 class="text-primary-gradient mb-1">Premium Plan</h4>
-                                            <span>Powerful & Awesome Features</span>
-                                        </div>
-                                        <div class="p-4 pt-0">
-                                            <h1 class="mb-3">
-                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>34.99<small
-                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ day</small>
-                                            </h1>
-                                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="tab-2" class="tab-pane fade p-0">
-                            <div class="row g-4">
-                                <div class="col-lg-4">
-                                    <div class="bg-light rounded">
-                                        <div class="border-bottom p-4 mb-4">
-                                            <h4 class="text-primary-gradient mb-1">Starter Plan</h4>
-                                            <span>Powerful & Awesome Features</span>
-                                        </div>
-                                        <div class="p-4 pt-0">
-                                            <h1 class="mb-3">
-                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>114.99<small
-                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
-                                            </h1>
-                                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="bg-light rounded border">
-                                        <div class="border-bottom p-4 mb-4">
-                                            <h4 class="text-primary-gradient mb-1">Advance Plan</h4>
-                                            <span>Powerful & Awesome Features</span>
-                                        </div>
-                                        <div class="p-4 pt-0">
-                                            <h1 class="mb-3">
-                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>124.99<small
-                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
-                                            </h1>
-                                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="bg-light rounded">
-                                        <div class="border-bottom p-4 mb-4">
-                                            <h4 class="text-primary-gradient mb-1">Premium Plan</h4>
-                                            <span>Powerful & Awesome Features</span>
-                                        </div>
-                                        <div class="p-4 pt-0">
-                                            <h1 class="mb-3">
-                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>134.99<small
-                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
-                                            </h1>
-                                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
+              <p class="mb-0">
+                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
+                amet diam et eos. Clita erat ipsum et lorem et sit.
+              </p>
             </div>
-        </div> -->
-        <!-- Pricing End -->
-
-
-        <!-- Testimonial Start -->
-        <div class="container-xxl py-5" id="review">
-            <div class="container py-5 px-lg-5">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="text-primary-gradient fw-medium">Testimonial</h5>
-                    <h1 class="mb-5">What Say Our Clients!</h1>
+            <div class="testimonial-item rounded p-4">
+              <div class="d-flex align-items-center mb-4">
+                <img
+                  class="img-fluid bg-white rounded flex-shrink-0 p-1"
+                  src="img/testimonial-2.jpg"
+                  style="width: 85px; height: 85px"
+                  alt="review client2"
+                />
+                <div class="ms-4">
+                  <h5 class="mb-1">Client Name</h5>
+                  <p class="mb-1">Profession</p>
+                  <div>
+                    <small class="fa fa-star text-warning"></small>
+                    <small class="fa fa-star text-warning"></small>
+                    <small class="fa fa-star text-warning"></small>
+                    <small class="fa fa-star text-warning"></small>
+                    <small class="fa fa-star text-warning"></small>
+                  </div>
                 </div>
-                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="testimonial-item rounded p-4">
-                        <div class="d-flex align-items-center mb-4">
-                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial-1.jpg"
-                                style="width: 85px; height: 85px;" alt="review client1">
-                            <div class="ms-4">
-                                <h5 class="mb-1">Client Name</h5>
-                                <p class="mb-1">Profession</p>
-                                <div>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
-                            eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                    <div class="testimonial-item rounded p-4">
-                        <div class="d-flex align-items-center mb-4">
-                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial-2.jpg"
-                                style="width: 85px; height: 85px;" alt="review client2">
-                            <div class="ms-4">
-                                <h5 class="mb-1">Client Name</h5>
-                                <p class="mb-1">Profession</p>
-                                <div>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
-                            eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                    <div class="testimonial-item rounded p-4">
-                        <div class="d-flex align-items-center mb-4">
-                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial-3.jpg"
-                                style="width: 85px; height: 85px;" alt="review client3">
-                            <div class="ms-4">
-                                <h5 class="mb-1">Client Name</h5>
-                                <p class="mb-1">Profession</p>
-                                <div>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
-                            eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                    <div class="testimonial-item rounded p-4">
-                        <div class="d-flex align-items-center mb-4">
-                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial-4.jpg"
-                                style="width: 85px; height: 85px;" alt="review client4">
-                            <div class="ms-4">
-                                <h5 class="mb-1">Client Name</h5>
-                                <p class="mb-1">Profession</p>
-                                <div>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
-                            eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                </div>
+              </div>
+              <p class="mb-0">
+                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
+                amet diam et eos. Clita erat ipsum et lorem et sit.
+              </p>
             </div>
+            <div class="testimonial-item rounded p-4">
+              <div class="d-flex align-items-center mb-4">
+                <img
+                  class="img-fluid bg-white rounded flex-shrink-0 p-1"
+                  src="img/testimonial-3.jpg"
+                  style="width: 85px; height: 85px"
+                  alt="review client3"
+                />
+                <div class="ms-4">
+                  <h5 class="mb-1">Client Name</h5>
+                  <p class="mb-1">Profession</p>
+                  <div>
+                    <small class="fa fa-star text-warning"></small>
+                    <small class="fa fa-star text-warning"></small>
+                    <small class="fa fa-star text-warning"></small>
+                    <small class="fa fa-star text-warning"></small>
+                    <small class="fa fa-star text-warning"></small>
+                  </div>
+                </div>
+              </div>
+              <p class="mb-0">
+                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
+                amet diam et eos. Clita erat ipsum et lorem et sit.
+              </p>
+            </div>
+            <div class="testimonial-item rounded p-4">
+              <div class="d-flex align-items-center mb-4">
+                <img
+                  class="img-fluid bg-white rounded flex-shrink-0 p-1"
+                  src="img/testimonial-4.jpg"
+                  style="width: 85px; height: 85px"
+                  alt="review client4"
+                />
+                <div class="ms-4">
+                  <h5 class="mb-1">Client Name</h5>
+                  <p class="mb-1">Profession</p>
+                  <div>
+                    <small class="fa fa-star text-warning"></small>
+                    <small class="fa fa-star text-warning"></small>
+                    <small class="fa fa-star text-warning"></small>
+                    <small class="fa fa-star text-warning"></small>
+                    <small class="fa fa-star text-warning"></small>
+                  </div>
+                </div>
+              </div>
+              <p class="mb-0">
+                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
+                amet diam et eos. Clita erat ipsum et lorem et sit.
+              </p>
+            </div>
+          </div>
         </div>
-        <!-- Testimonial End -->
+      </div>
+      <!-- Testimonial End -->
 
-
-        <!-- Contact Start -->
-        <div class="container-xxl py-5" id="contact">
-            <div class="container py-5 px-lg-5">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="text-primary-gradient fw-medium">Contact Us</h5>
-                    <h1 class="mb-5">N'HÉSITEZ PAS À NOUS CONTACTER POUR TOUTE QUESTION</h1>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-9">
-                        <div class="wow fadeInUp" data-wow-delay="0.3s">
-                            <!--   <p class="text-center mb-4">The contact form is currently inactive. <!-- Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>  -->
-                            <!--   <form>
+      <!-- Contact Start -->
+      <div class="container-xxl py-5" id="contact">
+        <div class="container py-5 px-lg-5">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="text-primary-gradient fw-medium">Contact Us</h5>
+            <h1 class="mb-5">
+              N'HÉSITEZ PAS À NOUS CONTACTER POUR TOUTE QUESTION
+            </h1>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-9">
+              <div class="wow fadeInUp" data-wow-delay="0.3s">
+                <!--   <p class="text-center mb-4">The contact form is currently inactive. <!-- Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>  -->
+                <!--   <form>
                                 <div class="row g-3">
                                     <div class="col-md-6">
                                         <div class="form-floating">
@@ -659,105 +677,121 @@
                                     </div>
                                 </div>
                             </form> -->
-                            <div class="contactblock">
-                                <div class="">
-                                    <h4>Contact</h4>
-                                </div>
-                                <div class="Responsable">Responsable</div>
-                                <div class="contactinfo">
-                                    <a class="" href="tel:+212666666666"><span class="">Phone : </span> +212 6688997777
-                                    </a>
-                                    <a class="" href="mailto:mycar@mycar.com"><span class="">E-mail :
-                                        </span>mycar@mycar.com </a>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="contactblock">
+                  <div class="">
+                    <h4>Contact</h4>
+                  </div>
+                  <div class="Responsable">Responsable</div>
+                  <div class="contactinfo">
+                    <a href="tel: +212666666666"
+                      ><span class="">Phone : </span> +212 6688997777
+                    </a>
+                    <a href="mailto: mycar@mycar.com"
+                      ><span class="">E-mail : </span>mycar@mycar.com
+                    </a>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-        <!-- Contact End -->
-        <!-- maps iframe -->
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193594.42089796157!2d-74.14448872386906!3d40.697917498320706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c300e31a104fbf%3A0x21e8372c8a89a16f!2sC.C.%20Rental!5e0!3m2!1sfr!2sma!4v1682093141498!5m2!1sfr!2sma"
-            width="100%" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade">
-        </iframe>
-        <!-- maps iframe -->
+      </div>
+      <!-- Contact End -->
+      <!-- maps iframe -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193594.42089796157!2d-74.14448872386906!3d40.697917498320706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c300e31a104fbf%3A0x21e8372c8a89a16f!2sC.C.%20Rental!5e0!3m2!1sfr!2sma!4v1682093141498!5m2!1sfr!2sma"
+        width="100%"
+        height="450"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      >
+      </iframe>
+      <!-- maps iframe -->
 
-        <!-- Footer Start -->
-        <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
-            <div class="container  py-5 px-lg-5">
-                <div class="justify-content-center row g-5">
-                    <div class="col-md-6 col-lg-3">
-                        <h4 class="text-white mb-4">Address</h4>
-                        <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, City, Morocco</p>
-                        <p><i class="fa fa-phone-alt me-3"></i>
-                            +212 715 24 42 20</p>
-                        <p><i class="fa fa-envelope me-3"></i>rachid@hammaali.ma</p>
-
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <h4 class="text-white mb-4">Quick Link</h4>
-                        <a class="btn btn-link" href="">About Us</a>
-                        <a class="btn btn-link" href="">Contact Us</a>
-                        <a class="btn btn-link" href="">Privacy Policy</a>
-                        <a class="btn btn-link" href="">Terms & Condition</a>
-
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <h4 class="text-white mb-4">reseaux social</h4>
-
-                        <a class="d-flex justify-content-between btn btn-outline-light btn-social"
-                            href="https://wa.me/+212715244220">
-                            <i class="fab fa-whatsapp"></i>
-                            <div class="socialbtn">Whatsapp</div>
-                        </a>
-                        <a class="d-flex justify-content-between btn btn-outline-light btn-social"
-                            href="mailto: rachid@hammaali.ma">
-                            <i class="fab fa-google-plus-g"></i>
-                            <div class="socialbtn">Gmail</div>
-                        </a>
-                        <a class="d-flex justify-content-between btn btn-outline-light btn-social " href="">
-                            <i class="fab fa-facebook-f"></i>
-                            <div class="socialbtn">Facebook</div>
-                        </a>
-                        <a class="d-flex justify-content-between btn btn-outline-light btn-social" href="">
-                            <i class="fab fa-instagram"></i>
-                            <div class="socialbtn">Instagram</div>
-                        </a>
-
-                        <a class="d-flex justify-content-between btn btn-outline-light btn-social"
-                            href="https://www.youtube.com/@all-lak">
-                            <i class="fab fa-youtube"></i>
-                            <div class="socialbtn">Youtube</div>
-                        </a>
-
-                    </div>
-
-                </div>
+      <!-- Footer Start -->
+      <div
+        class="container-fluid bg-primary text-light footer wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <div class="container py-5 px-lg-5">
+          <div class="justify-content-center row g-5">
+            <div class="col-md-6 col-lg-3">
+              <h4 class="text-white mb-4">Address</h4>
+              <p>
+                <i class="fa fa-map-marker-alt me-3"></i>123 Street, City,
+                Morocco
+              </p>
+              <p><i class="fa fa-phone-alt me-3"></i> +212 715 24 42 20</p>
+              <p><i class="fa fa-envelope me-3"></i>rachid@hammaali.ma</p>
             </div>
-            <div class="container px-lg-5">
-                <div class="copyright">
-                    <div class="justify-content-center row">
-                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">My Car</a>, All Right Reserved.
-
-
-                            Powered by the online zone
-                            </br>
-
-                        </div>
-
-                    </div>
-                </div>
+            <div class="col-md-6 col-lg-3">
+              <h4 class="text-white mb-4">Quick Link</h4>
+              <a class="btn btn-link" href="">About Us</a>
+              <a class="btn btn-link" href="">Contact Us</a>
+              <a class="btn btn-link" href="">Privacy Policy</a>
+              <a class="btn btn-link" href="">Terms & Condition</a>
             </div>
+            <div class="col-md-6 col-lg-3">
+              <h4 class="text-white mb-4">reseaux social</h4>
+
+              <a
+                class="d-flex justify-content-between btn btn-outline-light btn-social"
+                href="https://wa.me/+212715244220"
+              >
+                <i class="fab fa-whatsapp"></i>
+                <div class="socialbtn">Whatsapp</div>
+              </a>
+              <a
+                class="d-flex justify-content-between btn btn-outline-light btn-social"
+                href="mailto: rachid@hammaali.ma"
+              >
+                <i class="fab fa-google-plus-g"></i>
+                <div class="socialbtn">Gmail</div>
+              </a>
+              <a
+                class="d-flex justify-content-between btn btn-outline-light btn-social"
+                href=""
+              >
+                <i class="fab fa-facebook-f"></i>
+                <div class="socialbtn">Facebook</div>
+              </a>
+              <a
+                class="d-flex justify-content-between btn btn-outline-light btn-social"
+                href=""
+              >
+                <i class="fab fa-instagram"></i>
+                <div class="socialbtn">Instagram</div>
+              </a>
+
+              <!--  <a
+                class="d-flex justify-content-between btn btn-outline-light btn-social"
+                href="https://www.youtube.com/@all-lak"
+              >
+                <i class="fab fa-youtube"></i>
+                <div class="socialbtn">Youtube</div>
+              </a> -->
+            </div>
+          </div>
         </div>
-        <!-- Footer End -->
+        <div class="container px-lg-5">
+          <div class="copyright">
+            <div class="justify-content-center row">
+              <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                &copy; <a class="border-bottom" href="#">My Car</a>, All Right
+                Reserved. Powered by the online zone
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer End -->
 
-
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up text-white"></i></a>
+      <!-- Back to Top -->
+      <a href="#" class="btn btn-lg btn-lg-square back-to-top pt-2"
+        ><i class="bi bi-arrow-up text-white"></i
+      ></a>
     </div>
 
     <!-- JavaScript Libraries -->
@@ -770,7 +804,7 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-</body>
-
+    <script src="js/main.js" type="module"></script>
+    <script src="js/script.js" type="module"></script>
+  </body>
 </html>

@@ -1,0 +1,50 @@
+[
+    {
+        "phone": "000000000",
+        "email": "thOnlineZone@gmail.com",
+        "name": "THE ONLINE ZONE",
+        "adress": "123 Street, City, USA",
+        "facebook": "link facebook",
+        "instagram": "link instagram"
+    },
+    {
+        "lang": "Français",
+        "navbar": [
+            "Accueil",
+            "À propos",
+            "Parc & Tarifs",
+            "Réaction",
+            "Contact"
+        ],
+        "textBanner1":"Parcourez les routes en toute liberté avec notre service de location de voitures de premier choix !",
+        "textBanner2":"Voyagez avec style et simplicité - Louez dès maintenant votre voiture de rêve et explorez votre destination en toute liberté avec [Nom de votre entreprise de location de voiture]",
+        "btn-readmore":"En savoir plus...",
+        "btn-contactus":"Contactez Nous",
+        "park": [
+            {
+                "name": "Dacia logan",
+                "gear": "automatique",
+                "Carburant": "essance",
+                "passagers": 5,
+                "clim": "non"
+            },
+            {
+                "name": "Dacia sedero",
+                "gear": "manuel",
+                "Carburant": "essance",
+                "passagers": 4,
+                "clim": "oui"
+            }
+        ]
+    },
+    {
+        "lang": "English",
+        "navbar": [
+           "Home",
+           "About",
+            "Park & Rates",
+           "Review",
+           "Contact"
+        ]
+    }
+]

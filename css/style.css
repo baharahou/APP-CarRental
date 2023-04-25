@@ -572,3 +572,58 @@ h6,
   text-decoration: none;
   color: #262b47;
 }
+/* Style du bouton */
+.dropbtn {
+  width: 6rem;
+  background: linear-gradient(
+    to bottom right,
+    var(--secondary),
+    var(--primary)
+  );
+
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #919294;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.7rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style du bouton lorsqu'il est survolé */
+
+/* Style de la liste déroulante */
+.dropdown-content {
+  width: 6rem;
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Style des liens de la liste déroulante */
+.dropdown-content a {
+  background-color: var(--primary);
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 5%;
+}
+
+/* Style des liens de la liste déroulante lorsqu'ils sont survolés */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Affichage de la liste déroulante lorsque le bouton est survolé */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
