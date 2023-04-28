@@ -627,3 +627,13 @@ h6,
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.revclientsItemT {
+  height: 190px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}

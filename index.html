@@ -143,13 +143,15 @@
       <!-- Navbar & Hero End -->
 
       <!-- About Start -->
-      <div class="container-xxl py-5" id="about">
-        <div class="container py-5 px-lg-5">
+      <div class="container-xxl py-0" id="about">
+        <div class="container py-0 px-lg-5">
           <div class="row g-5 align-items-center">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <h5 class="text-primary-gradient fw-medium">Qui Sommes Nous ?</h5>
-              <h1 class="mb-4">Nom de l'agence MyCar</h1>
-              <p class="mb-4">
+              <h3 class="text-primary-gradient fw-medium whoarewe">
+                Qui Sommes Nous ?
+              </h3>
+
+              <p class="mb-4 whoarewe-text">
                 Dorénavant,vous n'aurez pas de soucis de voiture nous
                 garantissons le confort,le service et le bon prix. "Nom de
                 l'agence MyCar" agence de location de voitures à "ville" créée
@@ -171,8 +173,8 @@
                       class="fa fa-car fa-2x text-primary-gradient flex-shrink-0 mt-1"
                     ></i>
                     <div class="ms-3">
-                      <h2 class="mb-0" data-toggle="counter-up">34</h2>
-                      <p class="text-primary-gradient mb-0">
+                      <h2 class="mb-0 nb-car" data-toggle="counter-up">34</h2>
+                      <p class="text-primary-gradient nb-car-t mb-0">
                         Nombre de voiture
                       </p>
                     </div>
@@ -184,8 +186,10 @@
                       class="fa fa-comments fa-2x text-secondary-gradient flex-shrink-0 mt-1"
                     ></i>
                     <div class="ms-3">
-                      <h2 class="mb-0" data-toggle="counter-up">580</h2>
-                      <p class="text-secondary-gradient mb-0">
+                      <h2 class="mb-0 nbReview" data-toggle="counter-up">
+                        580
+                      </h2>
+                      <p class="text-secondary-gradient nbReview-t mb-0">
                         Clients Reviews
                       </p>
                     </div>
@@ -211,18 +215,18 @@
       <div class="container-xxl py-5" id="feature">
         <div class="container py-5 px-lg-5">
           <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h5 class="text-primary-gradient fw-medium">MyCar</h5>
-            <h1 class="mb-5">Parc & Tarifs</h1>
+            <!--  <h5 class="text-primary-gradient fw-medium">MyCar</h5> -->
+            <h2 class="mb-5">Parc & Tarifs</h2>
           </div>
-          <div class="row g-4">
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="parcTarif row g-4">
+            <!--  <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
               <div class="feature-item bg-light rounded p-4">
                 <img
                   src="./config/Mycar/asset/img/imgCar/car1.jpeg"
                   alt="fait 500"
                   class="w-100 h-100"
                 />
-                <h4 class="mb-3 p-3 text-center">Fiat 500</h4>
+                <h5 class="mb-3 p-3 text-center">Fiat 500</h5>
                 <div class="d-flex flex-column">
                   <div>
                     <i class="fa fa-gas-pump fs-6"> Carburant: </i> Essence
@@ -265,7 +269,7 @@
                   alt="dacia duster"
                   class="w-100 h-100"
                 />
-                <h5 class="mb-3 p-3 text-center">Dacia Duster</h5>
+                <h5 class="mb-3 p-3 text-center">duster</h5>
                 <div class="d-flex flex-column">
                   <div>
                     <i class="fa fa-gas-pump fs-6"> Carburant: </i> Gasoil
@@ -343,7 +347,7 @@
                   <div><i class="fa fa-snowflake fs-6"> clim: </i> oui</div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -380,10 +384,10 @@
       <div class="container-xxl py-5">
         <div class="container py-5 px-lg-5">
           <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
-            <h5 class="text-primary-gradient fw-medium">
+            <h3 class="text-primary-gradient fw-medium ForRntCar">
               pour réserver votre voiture
-            </h5>
-            <h1 class="mb-5">3 Easy Steps</h1>
+            </h3>
+            <h2 class="mb-5 easySteps">3 Easy Steps</h2>
           </div>
           <div class="row gy-5 gx-4 justify-content-center">
             <div
@@ -397,8 +401,8 @@
                 >
                   <i class="fa fa-cog fa-3x text-white"></i>
                 </div>
-                <h5 class="mt-4 mb-3">Contactez-nos</h5>
-                <p class="mb-0">
+                <h5 class="mt-4 mb-3 step1Title">Contactez-nos</h5>
+                <p class="mb-0 step1Text">
                   Sélectionnez le type de voiture qui correspond à vos besoins
                   en termes de taille, de modèle, de caractéristiques et de
                   budget.
@@ -416,8 +420,8 @@
                 >
                   <i class="fa fa-address-card fa-3x text-white"></i>
                 </div>
-                <h5 class="mt-4 mb-3">Signé le contrat</h5>
-                <p class="mb-0">
+                <h5 class="mt-4 mb-3 step2Title">Signé le contrat</h5>
+                <p class="mb-0 step2Text">
                   Fournissez les informations nécessaires : Préparez les
                   informations nécessaires pour la réservation, Signez le
                   contrat de location
@@ -435,8 +439,8 @@
                 >
                   <i class="fa fa-check fa-3x text-white"></i>
                 </div>
-                <h5 class="mt-4 mb-3">Récupérez la voiture</h5>
-                <p class="mb-0">
+                <h5 class="mt-4 mb-3 step3Title">Récupérez la voiture</h5>
+                <p class="mb-0 step3Text">
                   Rendez-vous à l'agence de location de voitures à la date et à
                   l'heure convenues pour récupérer la voiture.
                 </p>
@@ -460,35 +464,22 @@
               />
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-              <h1 class="mb-4">Nos points forts:</h1>
+              <h2 class="mb-4 strongpointsT">Nos points forts :</h2>
 
-              <ul>
+              <ul class="strongpointsP">
                 <li>
                   La proximité avec nos clients par un accueil de qualité et un
                   relationnel durable.
                 </li>
-                <li>Réservation de voiture possible sur place.</li>
-                <li>Disponibilité en temps réel.</li>
-                <li>Paiement 100% sécurisé.</li>
-                <li>
-                  Large gamme de voitures avec prix pas chers : à partir de 200
-                  dhs/jour.
-                </li>
-                <li>Pas de frais d'annulation.</li>
-                <li>Accueillir le client 24h/24.</li>
-                <li>Conseiller et aider à remplir le contrat.</li>
-                <li>
-                  Remettre le véhicule au client avec les explications
-                  nécessaires au bon fonctionnement.
-                </li>
-                <li>Gérer le retour du véhicule.</li>
 
-                <li>Livraison à domicile sans frais supplémentaires.</li>
                 <!--  <li>Récupérer la voiture réservée de l'aéroport de Marrakech</li> -->
               </ul>
               <div class="row g-4">
-                <div class="col-sm-8 wow fadeIn" data-wow-delay="0.2s">
-                  <a
+                <div
+                  class="col-sm-8 wow fadeIn boutonwhats"
+                  data-wow-delay="0.2s"
+                >
+                  <!--   <a
                     href="https://wa.me/+212611223344"
                     class="d-flex bg-primary-gradient rounded py-3 px-4"
                   >
@@ -499,7 +490,7 @@
                       <p class="text-white mb-0">réservez votre voiture</p>
                       <h5 class="text-white mb-0">Whatsapp</h5>
                     </div>
-                  </a>
+                  </a> -->
                 </div>
                 <!--  <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
                                 <a href="" class="d-flex bg-secondary-gradient rounded py-3 px-4">
@@ -521,14 +512,13 @@
       <div class="container-xxl py-5" id="review">
         <div class="container py-5 px-lg-5">
           <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h5 class="text-primary-gradient fw-medium">Testimonial</h5>
-            <h1 class="mb-5">What Say Our Clients!</h1>
+            <h2 class="mb-5 titleSectionRev">What Say Our Clients!</h2>
           </div>
           <div
-            class="owl-carousel testimonial-carousel wow fadeInUp"
-            data-wow-delay="0.1s"
+            class="owl-carousel testimonial-carousel wow fadeInUp revsClients"
+            data-wow-delay="0.4s"
           >
-            <div class="testimonial-item rounded p-4">
+            <!--  <div class="testimonial-item rounded p-4">
               <div class="d-flex align-items-center mb-4">
                 <img
                   class="img-fluid bg-white rounded flex-shrink-0 p-1"
@@ -627,7 +617,7 @@
                 Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
                 amet diam et eos. Clita erat ipsum et lorem et sit.
               </p>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -637,10 +627,9 @@
       <div class="container-xxl py-5" id="contact">
         <div class="container py-5 px-lg-5">
           <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h5 class="text-primary-gradient fw-medium">Contact Us</h5>
-            <h1 class="mb-5">
+            <h2 class="mb-5 text-contact-Us">
               N'HÉSITEZ PAS À NOUS CONTACTER POUR TOUTE QUESTION
-            </h1>
+            </h2>
           </div>
           <div class="row justify-content-center">
             <div class="col-lg-9">
@@ -715,7 +704,7 @@
         data-wow-delay="0.1s"
       >
         <div class="container py-5 px-lg-5">
-          <div class="justify-content-center row g-5">
+          <div class="justify-content-center row g-2">
             <div class="col-md-6 col-lg-3">
               <h4 class="text-white mb-4">Address</h4>
               <p>
@@ -763,14 +752,6 @@
                 <i class="fab fa-instagram"></i>
                 <div class="socialbtn">Instagram</div>
               </a>
-
-              <!--  <a
-                class="d-flex justify-content-between btn btn-outline-light btn-social"
-                href="https://www.youtube.com/@all-lak"
-              >
-                <i class="fab fa-youtube"></i>
-                <div class="socialbtn">Youtube</div>
-              </a> -->
             </div>
           </div>
         </div>
@@ -778,8 +759,8 @@
           <div class="copyright">
             <div class="justify-content-center row">
               <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                &copy; <a class="border-bottom" href="#">My Car</a>, All Right
-                Reserved. Powered by the online zone
+                &copy; <a class="border-bottom" href="#">The Online Zone</a>,
+                All Right Reserved. Powered by the online zone
                 <br />
               </div>
             </div>
@@ -804,7 +785,7 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
+    <script src="js/script.js" type="module" defer></script>
     <script src="js/main.js" type="module"></script>
-    <script src="js/script.js" type="module"></script>
   </body>
 </html>

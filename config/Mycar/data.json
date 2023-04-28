@@ -1,6 +1,6 @@
 [
     {
-        "phone": "000000000",
+        "phone": "+212660066898",
         "email": "thOnlineZone@gmail.com",
         "name": "THE ONLINE ZONE",
         "adress": "123 Street, City, USA",
@@ -16,35 +16,259 @@
             "Réaction",
             "Contact"
         ],
-        "textBanner1":"Parcourez les routes en toute liberté avec notre service de location de voitures de premier choix !",
-        "textBanner2":"Voyagez avec style et simplicité - Louez dès maintenant votre voiture de rêve et explorez votre destination en toute liberté avec [Nom de votre entreprise de location de voiture]",
-        "btn-readmore":"En savoir plus...",
-        "btn-contactus":"Contactez Nous",
+        "textBanner1": "Parcourez les routes en toute liberté avec notre service de location de voitures de premier choix !",
+        "textBanner2": "Voyagez avec style et simplicité - Louez dès maintenant votre voiture de rêve et explorez votre destination en toute liberté avec THE ONLINE ZONE",
+        "btn-readmore": "En savoir plus...",
+        "btn-contactus": "Contactez Nous",
+        "whoarewe": "Qui sommes Nous  ?",
+        "whoarewe-text": " Dorénavant,vous n'aurez pas de soucis de voiture nous garantissons le confort,le service et le bon prix. Nom de l'agence MyCar agence de location de voitures à ville créée depuis année présente des taris imbattables à sa clientéle. Notre parc est constitué de voitures toutes neuves qui sont toujours bien entrenues dans le but de passer des vacances bien remplies de joie et pleins de souvenirs intarissables. Avec Car Rental LTD,vous pouvez récupérer la voiture que vous avez choisie au moment que vous aurez déja fixé. Notre équipe est toujours à votre disposition à tout moment (7j/7 et 24h/24).  Nous nous occupons de la livraison de votre voiture là où vous le souhaitez à l'aéroport, à la gare ou à votre hôtel sans que cela engage des dépenses supplémentaires.",
+        "nbCars": [
+            "Nombre de voiture",
+            24
+        ],
+        "nbReview": [
+            "Clients réaction",
+            250
+        ],
         "park": [
             {
-                "name": "Dacia logan",
-                "gear": "automatique",
-                "Carburant": "essance",
-                "passagers": 5,
-                "clim": "non"
+                "name": "Fiat 500",
+                "gear": "Boîte de vitesses : automatique",
+                "Carburant": "Carburant  : essance",
+                "passagers": "Max passagers : 4",
+                "clim": "Clim : oui",
+                "image": "car1.jpeg"
             },
             {
-                "name": "Dacia sedero",
-                "gear": "manuel",
-                "Carburant": "essance",
-                "passagers": 4,
-                "clim": "oui"
+                "name": "Dacia logan",
+                "gear": "Boîte de vitesses : manuel",
+                "Carburant": "Carburant  : essance",
+                "passagers": "Max passagers : 5",
+                "clim": "Clim : oui",
+                "image": "loganne.jpeg"
+            },
+            {
+                "name": "Dacia Duster",
+                "gear": "Boîte de vitesses : automatique",
+                "Carburant": "Carburant  : Gasoil",
+                "passagers": "Max passagers : 5",
+                "clim": "Clim : oui",
+                "image": "duster.jpeg"
+            },
+            {
+                "name": "Hyundia Accent",
+                "gear": "Boîte de vitesses : manuel",
+                "Carburant": "Carburant  : essance",
+                "passagers": "Max passagers : 5",
+                "clim": "Clim : non",
+                "image": "accent.jpeg"
+            },
+            {
+                "name": "Citrion C3",
+                "gear": "Boîte de vitesses : automatique",
+                "Carburant": "Carburant  : Gasoil",
+                "passagers": "Max passagers : 4",
+                "clim": "Clim : oui",
+                "image": "c3.png"
+            },
+            {
+                "name": "Hyundia grand I10",
+                "gear": "Boîte de vitesses : manuel",
+                "Carburant": "Carburant  : essance",
+                "passagers": "Max passagers : 4",
+                "clim": "Clim : oui",
+                "image": "i10.jpeg"
             }
-        ]
+        ],
+        "ForRntCar": "pour réserver votre voiture",
+        "easySteps": "3 étapes faciles",
+        "step1Title": "Contactez-nos ",
+        "step1Text": "Sélectionnez le type de voiture qui correspond à vos besoins en termes de taille, de modèle, de caractéristiques et de      budget.",
+        "step2Title": "Signé le contrat",
+        "step2Text": "Fournissez les informations nécessaires : Préparez les    informations nécessaires pour la réservation, Signez le contrat de location.",
+        "step3Title": "Récupérez la voiture",
+        "step3Text": " Rendez-vous à l'agence de location de voitures à la date et à l'heure convenues pour récupérer la voiture. ",
+        "strongpoints": {
+            "title": "Nos points forts:",
+            "points": [
+                " La proximité avec nos clients par un accueil de qualité et un relationnel durable.",
+                "Réservation de voiture possible sur place.",
+                "Disponibilité en temps réel.",
+                "Paiement 100% sécurisé.",
+                " Large gamme de voitures avec prix pas chers : à partir de 200  dhs/jour.",
+                "Pas de frais d'annulation.",
+                "Accueillir le client 24h/24.",
+                "Conseiller et aider à remplir le contrat.",
+                " Remettre le véhicule au client avec les explications  nécessaires au bon fonctionnement.",
+                "Gérer le retour du véhicule.",
+                "Livraison à domicile sans frais supplémentaires."
+            ]
+        },
+        "reviews":{
+            "titleSection":"Qu'en disent nos clients !",
+            "clients":[
+                {
+                    "name":"B.houssin",
+                    "profession":"enseignant",
+                    "country": "Morocco",
+                    "image":"testimonial-3.jpg",
+                    "Review":"Je suis très satisfait de ma location de voiture auprès de cette agence. Le processus de réservation était facile, l'équipe était professionnelle et la voiture était en excellent état. Je recommande vivement leurs services."
+                },
+                {
+                    "name":"T.Diakite",
+                    "profession":"doctor",
+                    "country": "USA",
+                    "image":"testimonial-3.jpg",
+                    "Review":"J'ai récemment loué une voiture auprès de cette agence et je suis extrêmement satisfait. Le processus de réservation était facile, l'équipe était accueillante et professionnelle lors de la prise en charge, la voiture était en excellent état et le retour s'est déroulé sans problème. Je recommande vivement cette agence de location. Merci !"
+                },
+                {
+                    "name":"F.Jerry",
+                    "profession":"photographe",
+                    "country": "FR",
+                    "image":"testimonial-3.jpg",
+                    "Review":"J'ai loué une voiture chez cette agence de location et j'ai été très satisfait du service. Le processus de réservation était facile, l'équipe était professionnelle et la voiture était en excellent état. Je recommande cette agence sans hésitation."
+                },
+                {
+                    "name":"L.Brice",
+                    "profession":"Journaliste",
+                    "country": "Japon",
+                    "image":"testimonial-3.jpg",
+                    "Review":" je suis extrêmement satisfait de mon expérience. Le processus de réservation était simple et l'équipe était accueillante et professionnelle lorsque je suis arrivé pour récupérer la voiture. La voiture était en excellent état et très confortable à conduire, et la restitution a été rapide et sans problème. Je recommande vivement cette agence de location !"
+                }
+            ]
+        },
+        "contactUS":"N'HÉSITEZ PAS À NOUS CONTACTER POUR TOUTE QUESTION"
     },
     {
         "lang": "English",
         "navbar": [
-           "Home",
-           "About",
+            "Home",
+            "About",
             "Park & Rates",
-           "Review",
-           "Contact"
-        ]
+            "Review",
+            "Contact"
+        ],
+        "textBanner1": "Travel the roads in complete freedom with our first choice car rental service!",
+        "textBanner2": "Travel with style and simplicity - Rent your dream car now and explore your destination in complete freedom with THE ONLINE ZONE",
+        "btn-readmore": "Read more...",
+        "btn-contactus": "Contact Us",
+        "whoarewe": "Who are we  ?",
+        "whoarewe-text": "From now on, you won't have car worries, we guarantee comfort, service and the right price. Name of the agency MyCar city car rental agency created since year presents unbeatable rates to its customers. Our fleet is made up of brand new cars that are always well maintained in order to spend a holiday full of joy and full of endless memories. With Car Rental LTD, you can pick up the car you have chosen at the time you have already set. Our team is always at your disposal at any time (24/7). We take care of the delivery of your car wherever you want at the airport, train station or your hotel without incurring additional expenses.",
+        "nbCars": [
+            "Number of cars",
+            24
+        ],
+        "nbReview": [
+            "Customers reviews",
+            250
+        ],
+        "park": [
+            {
+                "name": "Fiat 500",
+                "gear": "Gearbox : automatic",
+                "Carburant": "Fuel  : essance",
+                "passagers": "Max passengers : 4",
+                "clim": "Air conditioner : Yes",
+                "image": "car1.jpeg"
+            },
+            {
+                "name": "Dacia logan",
+                "gear": "Gearbox : manuel",
+                "Carburant": "Fuel  : essance",
+                "passagers": "Max passengers : 5",
+                "clim": "Air conditioner : Yes",
+                "image": "loganne.jpeg"
+            },
+            {
+                "name": "Dacia Duster",
+                "gear": "Gearbox : automatique",
+                "Carburant": "Fuel  : Gasoil",
+                "passagers": "Max passengers : 5",
+                "clim": "Air conditioner : Yes",
+                "image": "duster.jpeg"
+            },
+            {
+                "name": "Hyundia Accent",
+                "gear": "Gearbox : manuel",
+                "Carburant": "Fuel  : essance",
+                "passagers": "Max passengers : 5",
+                "clim": "Air conditioner : No",
+                "image": "accent.jpeg"
+            },
+            {
+                "name": "Citrion C3",
+                "gear": "Gearbox : automatique",
+                "Carburant": "Fuel  : Gasoil",
+                "passagers": "Max passengers : 4",
+                "clim": "Air conditioner : Yes",
+                "image": "c3.png"
+            },
+            {
+                "name": "Hyundia grand I10",
+                "gear": "Gearbox : manuel",
+                "Carburant": "Fuel  : essance",
+                "passagers": "Max passengers : 4",
+                "clim": "Air conditioner : Yes",
+                "image": "i10.jpeg"
+            }
+        ],
+        "ForRntCar": "To book your car",
+        "easySteps": "3 Easy steps",
+        "step1Title": "Contact us ",
+        "step1Text": "Select the type of car that suits your needs in terms of size, model, features and budget.",
+        "step2Title": "Signed the contract",
+        "step2Text": "Provide the necessary information: Prepare the information necessary for the reservation, Sign the rental agreement.",
+        "step3Title": "Pick up the car",
+        "step3Text": "Meet at the car rental agency on the agreed date and time to pick up the car. ",
+        "strongpoints": {
+            "title": "Our strong points:",
+            "points": [
+                "Proximity to our customers through a quality welcome and a lasting relationship.",
+                "Car reservation possible on site.",
+                "Real-time availability.",
+                "100% secure payment.",
+                "Wide range of cars with cheap prices: from 200 dhs/day.",
+                "No cancellation fees.",
+                "Welcoming customers 24 hours a day.",
+                "Advise and help fulfill the contract.",
+                "Return the vehicle to the customer with the explanations necessary for proper operation.",
+                "Manage the return of the vehicle.",
+                "Home delivery at no additional cost."
+            ]
+        },
+        "reviews":{
+            "titleSection":"What our customers say !",
+            "clients":[
+                {
+                    "name":"B.houssin",
+                    "profession":"Teacher",
+                    "country": "Morocco",
+                    "image":"testimonial-3.jpg",
+                    "Review":"I am very satisfied with my car rental from this agency. The reservation process was easy, the team was professional and the car was in excellent condition. I highly recommend their services."
+                },
+                {
+                    "name":"T.Diakite",
+                    "profession":"doctor",
+                    "country": "USA",
+                    "image":"testimonial-3.jpg",
+                    "Review":"The booking process was easy, the team were welcoming and professional when picking up, the car was in excellent condition and the return was smooth. I highly recommend this rental agency. THANKS !"
+                },
+                {
+                    "name":"F.Jerry",
+                    "profession":"photographer",
+                    "country": "FR",
+                    "image":"testimonial-3.jpg",
+                    "Review":"I rented a car from this rental agency and was very pleased with the service. The reservation process was easy, the team was professional and the car was in excellent condition. I recommend this agency without hesitation."
+                },
+                {
+                    "name":"L.Brice",
+                    "profession":"Journalist",
+                    "country": "Japon",
+                    "image":"testimonial-3.jpg",
+                    "Review":"I am extremely satisfied with my experience. The booking process was simple and the team were welcoming and professional when I arrived to collect the car. The car was in excellent condition and very comfortable to drive, and the return was quick and hassle-free. I highly recommend this rental agency!"
+                }
+            ]
+        },
+        "contactUS":"DO NOT HESITATE TO CONTACT US FOR ANY QUESTIONS"
     }
 ]
